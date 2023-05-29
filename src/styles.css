@@ -1,0 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Golos+Text&family=Roboto+Slab&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+   
+    
+}
+body{
+    
+    font-family: 'Fjalla One', sans-serif;
+font-family: 'Golos Text', sans-serif;
+font-family: 'Roboto Slab', serif;
+}

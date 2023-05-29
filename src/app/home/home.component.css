@@ -1,0 +1,156 @@
+img{
+    width:100%;
+}
+.sub{
+    text-align: center;
+    padding-top:25px;
+    font-size:30px;
+}
+.sub-head
+{
+    text-align: center;
+    padding-top:7px;
+    font-size:19px;
+}
+.sub-middle
+{
+    margin-top:40px;
+    display:flex;
+    margin-left:20px;
+    
+}
+.first
+{
+    width:20%;
+    border:1px solid grey;
+    padding:20px 25px;
+    border-radius:30px;
+}
+.first-head
+{
+    font-size:20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.first-subhead
+{
+    text-align: justify;
+    padding-top:12px;
+
+}
+.second{
+    width:20%;
+    border:1px solid grey;
+    padding:20px 25px;
+    border-radius:30px;
+    margin-left:1%;
+}
+.third
+{
+    width:20%;
+    border:1px solid grey;
+    padding:20px 25px;
+    border-radius:30px;
+    margin-left:1%;
+}
+.fourth
+{
+    width:20%;
+    border:1px solid grey;
+    padding:20px 25px;
+    border-radius:30px;
+    margin-left:1%;
+}
+.first:hover{
+    background-color:#47A992;
+}
+.second:hover{
+    background-color:#47A992;
+}
+.third:hover{
+    background-color:#47A992;
+}
+.fourth:hover{
+    background-color:#47A992;
+}
+.follow
+{
+    margin-top:40px;
+    background-color: black;
+    padding-left:30px;
+    display:flex;
+    
+}
+.one{
+    width:35%;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.logo
+{
+    font-size:22px;
+    font-weight: 400;
+    color:orange;
+}
+.logo-sub{
+    
+    padding-top:10px;
+    text-align: justify;
+    color:#E8AA42;
+}
+.two
+{
+    width:35%;
+    padding-left:5%;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.two-sub
+{
+    
+    font-size:20px;
+    color:orange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.two-subhead
+{
+    padding-top:10px;
+    text-align: justify;
+    color:#E8AA42;
+}
+.three
+
+{
+    width:35%;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.three-sub
+{
+    font-size:20px;
+    color:orange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.three-subhead
+{
+    padding-top:10px;
+    text-align: center;
+    color:#E8AA42;
+}
+.logo{
+    text-align: center;
+}
+.footer
+{
+    padding: 12px 15px;
+    clear: both;
+    background-color: #9DB2BF;
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+    
+}

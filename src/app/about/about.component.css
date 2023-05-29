@@ -1,0 +1,40 @@
+.main
+{
+    background: -webkit-linear-gradient(left,#D63F6D,#E79149);
+    width:100%;
+    height:1000px;
+    
+}
+.sub-main
+{
+    
+    width:70%;
+    padding-top: 50px;
+    padding-left:170px;
+
+    
+}
+.head
+{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    font-weight: 400;
+}
+.sub-para
+{
+    padding-top: 30px;
+    text-align: justify;
+    line-height:34px;
+    color:white;
+    text-indent: 20px;
+}
+.sub-para2
+{
+    padding-top: 30px;
+    text-align: justify;
+    line-height:34px;
+    color:white;
+    text-indent: 20px;
+}
+

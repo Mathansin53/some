@@ -1,0 +1,56 @@
+<div class="new">
+    <div class="container">
+        <div class="content">
+            <h2>Contact Forms</h2>
+            <form [formGroup]="loginForm" (ngSubmit)="loginuser()">
+                <div class="row">
+                    <input type="text" placeholder="First Name" class="form-control" formControlName="firstname">
+                <div *ngIf="firstname && firstname.invalid && firstname.touched" style="color:red">
+                    <span *ngIf="firstname.errors?.['required']">*First Name is required.</span>
+                    <span *ngIf="firstname.errors?.['pattern']">*Only allowed characters. </span>
+                    <span *ngIf="firstname.errors?.['maxlength']">*First Name is too long. </span>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="text" placeholder="Last Name" class="form-control" formControlName="lastname">
+                    <div *ngIf="lastname && lastname.invalid && lastname.touched" style="color:red">
+                        <span *ngIf="lastname.errors?.['required']">*Last Name is required.</span>
+                        <span *ngIf="lastname.errors?.['pattern']">*Only allowed characters. </span>
+                        <span *ngIf="lastname.errors?.['maxlength']">*Last Name is too long.. </span>
+                        </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="text" placeholder="Qualification" class="form-control" formControlName="qualification">
+                    <div *ngIf="qualification && qualification.invalid && qualification.touched" style="color:red">
+                        <span *ngIf="qualification.errors?.['required']">*Qualification is required.</span>
+                        <span *ngIf="qualification.errors?.['minlength']">*Minimum 7 characters Entered. </span>
+                        <span *ngIf="qualification.errors?.['maxlength']">*Maximum 8 characters allowed. </span>
+                        </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="text" placeholder="MobileNumber" class="form-control" formControlName="mobilenumber">
+                    <div *ngIf="mobilenumber && mobilenumber.invalid && mobilenumber.touched" style="color:red">
+                        <span *ngIf="mobilenumber.errors?.['required']">*Mobile Number is required.</span>
+                        <span *ngIf="mobilenumber.errors?.['pattern']">*Only Numbers Allowed. </span>
+                        <span *ngIf="mobilenumber.errors?.['maxlength']">*Maximum 10 characters allowed. </span>
+                        </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="text" placeholder="EmailId" class="form-control" formControlName="emailid">
+                    <div *ngIf="emailid && emailid.invalid && emailid.touched" style="color:red">
+                        <span *ngIf="emailid.errors?.['required']">*Email Id is required.</span>
+                        <span *ngIf="emailid.errors?.['email']">*Email is Invalid. </span>
+                        </div>
+                </div>
+                <br>
+                
+                <button [disabled]="loginForm.invalid">Submit</button>
+    </form>
+        </div>
+    </div>
+    
+</div>
